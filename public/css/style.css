@@ -1,0 +1,50 @@
+img{
+    display: flex;
+    width: 100%;
+}
+
+.name{
+    font-weight: bolder;
+}
+
+#navbar{
+    background-color: rgb(209, 207, 207);
+    border-radius: 3px;
+}
+
+#nav-btn{
+    font-weight: bolder;
+    font-size: larger;
+    color: rgb(250, 253, 44);
+    background-color: rgb(74, 104, 114);
+}
+
+#exptable{
+    background-color: rgba(64, 228, 240, 0.39);
+}
+
+.skills{
+    margin-top: 10%;
+}
+
+.exp{
+    margin-top: 10%;
+}
+
+.statistic{
+    margin-top: 10%;
+}
+
+.facebook{
+    background-color: rgb(33, 119, 233);
+    color: whitesmoke;
+    border-radius: 5cm;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.facebook:hover{
+    background-color: rgba(33, 120, 233, 0.658);
+    
+    text-align: unset;
+}
