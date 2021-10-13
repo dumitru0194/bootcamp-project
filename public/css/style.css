@@ -4,7 +4,21 @@ img{
 }
 
 .name{
-    font-weight: bolder;
+    font-family: cursive;
+}
+
+.head{
+    animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+    from {background-color: rgb(11, 196, 134);}
+    to {background-color: rgb(194, 153, 40);}
+  }
+
+div > h1{
+color: aliceblue;
+font-weight: bolder;
 }
 
 #navbar{
@@ -46,5 +60,13 @@ img{
 .facebook:hover{
     background-color: rgba(33, 120, 233, 0.658);
     
-    text-align: unset;
+    text-decoration: unset;
+}
+
+.about{
+    font-family: "Helvetica Neue";
+}
+
+footer{
+    background-color:silver;
 }
