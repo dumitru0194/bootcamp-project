@@ -30,6 +30,7 @@ font-weight: bolder;
     font-weight: bolder;
     font-size: larger;
     color: rgb(250, 253, 44);
+
     background-color: rgb(74, 104, 114);
 }
 
@@ -68,5 +69,11 @@ font-weight: bolder;
 }
 
 footer{
-    background-color:silver;
+    background-color:rgba(192, 192, 192, 0.582);
+}
+
+.send-btn:hover{
+transform: scale(2, 2);
+translate: (12px, 50%);
+transition: 2s;
 }
